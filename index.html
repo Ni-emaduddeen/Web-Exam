@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Palestine Title</title>
+<style>
+
+
+body {
+  background-color: Aquamarine;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+#img1 {
+  filter: blur(2px);
+}
+
+#img2 {
+  filter: blur(6px);
+}
+.container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+  margin-right: 200px;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+
+@keyframes myAnimation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+* {
+  text-align: center;
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Welcome to Palestine Web</h1>
+
+<img src="https://th.bing.com/th/id/OIP.hX1_3gaTiLMktDouDvP7PQHaEo?w=332&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Trulli" width="500" height="333">
+
+
+<p>(2px):</p>
+<img id="img1" src="https://th.bing.com/th/id/OIP.hX1_3gaTiLMktDouDvP7PQHaEo?w=332&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Pineapple" width="500" height="333">
+
+<p>(6px):</p>
+<img id="img2" src="https://th.bing.com/th/id/OIP.hX1_3gaTiLMktDouDvP7PQHaEo?w=332&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Pineapple" width="500" height="333">
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<div></div>
+
+<footer>
+  <p>Author: Ni-emaduddeen bennisoh<br>
+  <a href="mailto:Palestine@example.com">Palestine@example.com</a></p>
+</footer>
+
+</body>
+</html>
