@@ -1,87 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Palestine Title</title>
-<style>
-
-
-body {
-  background-color: Aquamarine;
-}
-
-h1 {
-  color: red;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-#img1 {
-  filter: blur(2px);
-}
-
-#img2 {
-  filter: blur(6px);
-}
-.container {
-  display: flex;
-  background-color: DodgerBlue;
-}
-
-.container div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 24px;
-}
-body {
-  background: #ffffff url("img_tree.png") no-repeat right top;
-  margin-right: 200px;
-}
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  position: relative;
-  animation-name: myAnimation;
-  animation-duration: 4s;
-}
-
-@keyframes myAnimation {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
-}
-* {
-  text-align: center;
-  color: blue;
-}
-</style>
+<title>Palestine Explorer: Midterm Challenge</title>
+<link rel="stylesheet" href="style.css"> 
 </head>
 <body>
 
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40"
+  stroke="white" stroke-width="4" fill="red" />
+Sorry, your browser does not support inline SVG.
+</svg>
+
 <h1>Welcome to Palestine Web</h1>
+<p>Palestine is a land of profound historical and cultural significance, situated at the crossroads of Asia and Africa. 
+This region is the cradle of ancient civilizations and a spiritual heartland for multiple faiths. It boasts a diverse landscape, 
+ranging from the beautiful Mediterranean coastline to complex, rugged mountain ranges.
+</p>
 
 <img src="https://th.bing.com/th/id/OIP.hX1_3gaTiLMktDouDvP7PQHaEo?w=332&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Trulli" width="500" height="333">
 
+<h2>Quds</h2>
+<p>The historic capital and a focal point of faith. It is renowned for its ancient architecture and serves as the home to significant religious sites, such as the Al-Aqsa Mosque.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT98e2TN6hLe1nDU0fTLTrJ1VJe795TaS86xwfk046W2w&s=10" alt="Trulli" width="500" height="333">
 
-<p>(2px):</p>
-<img id="img1" src="https://th.bing.com/th/id/OIP.hX1_3gaTiLMktDouDvP7PQHaEo?w=332&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Pineapple" width="500" height="333">
+<h2>Khaleel</h2>
+<p>A major commercial and industrial hub in the West Bank. It is famous for traditional crafts like glassblowing and ceramics, and is home to the Ibrahimi Mosque.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdR_6D5OluwZf-pheaWjpAloDIyG74FTNJS9kKPPITkg&s=10" alt="Trulli" width="500" height="333">
 
-<p>(6px):</p>
-<img id="img2" src="https://th.bing.com/th/id/OIP.hX1_3gaTiLMktDouDvP7PQHaEo?w=332&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Pineapple" width="500" height="333">
+<h2>Yafa</h2>
+<p>One of the oldest port cities in the world on the Mediterranean coast. It was historically a major trade center and globally famous for exporting "Jaffa oranges."</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIe57is-CWMNzkDHcFfOlKi6ItHXAxxQ_PyvBEpfAMOQ&s=10" alt="Trulli" width="500" height="333">
+
+<h2>Khan Younus</h2>
+<p>A prominent city in the southern Gaza Strip. It has a long history as a resting point for merchant caravans along the ancient trade route between Egypt and the Levant.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSUm4Ei9SnRDa7LU0F1f9ZVV4bbLKo6aMVkNTik2bC6g&s=10" alt="Trulli" width="500" height="333">
+
+<h2>Rafah</h2>
+<P>The southernmost border city of the Gaza Strip. It serves as a vital strategic crossing and the main gateway connecting Palestinian territories with Egypt's Sinai Peninsula.</P>
+<img src="https://static.srpcdigital.com/styles/1037xauto/public/2024-05/644731_0.jpeg.webp" alt="Trulli" width="500" height="333">
+
+<h2>Gaza</h2>
+<p>A major coastal city on the Mediterranean with thousands of years of continuous settlement history. It is a crucial economic, fishing, and cultural center in the region.</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfAH2VRdFTD8ARRvRWJXmIURndFJ-2OAa2arvb4Ix4sw&s=10" alt="Trulli" width="500" height="333">
+
 
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
+  <input type="text" id="fname" name="fname"><br>
   <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="mail">E-mail:</label><br>
+  <input type="email"id="email" name="email"><br>
   <input type="submit" value="Submit">
-</form> 
+</form>
 
 <div></div>
 
